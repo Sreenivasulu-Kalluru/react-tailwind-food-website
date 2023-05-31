@@ -4,8 +4,8 @@ const Footer = () => {
   const currYear = new Date().getFullYear();
 
   return (
-    <footer className="max-w-[1640px] mx-auto p-4 py-12 bg-yellow-400 text-black ">
-      <div className="flex flex-col items-center gap-6 md:flex-row md:justify-between">
+    <footer className="max-w-[1640px] mx-4 mb-8 rounded-xl p-4 py-12 bg-yellow-400 text-black ">
+      <div className="flex flex-col items-center gap-6 md:flex-row md:justify-around">
         <div>
           <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2 border-b-2 border-black">
             Best <span className="font-bold">Eats</span>
